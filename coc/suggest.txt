@@ -1,0 +1,15 @@
+|mostfrequent.db|file
+conf|conf|around
+|AC1-System-Bar-Plasma-LUA.conkyrc|file
+|AutofillRegex|file
+|autostart.sh|file
+|am-conky-session.desktop|file
+|arcologout.conf|file
+|alacritty.yml|file
+zs|zsh|file
+Fira|FiraCode|around
+key|key_bindings.zsh|file
+fz|fzf_key_bindings.zsh|file
+fzf|fzf_completion.zsh|file
+print|println!|rust-client
+print|println|around
