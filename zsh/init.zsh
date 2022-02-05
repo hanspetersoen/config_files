@@ -8,4 +8,5 @@ zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
 
 
+SSH_ENV="$HOME/.ssh/"
 
