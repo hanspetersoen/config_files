@@ -1,3 +1,4 @@
+x|xinit_custom|file
 |mostfrequent.db|file
 conf|conf|around
 |AC1-System-Bar-Plasma-LUA.conkyrc|file
