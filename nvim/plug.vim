@@ -2,6 +2,7 @@ call plug#begin()
 "
 " Language support / Language servers
 "
+Plug 'ciaranm/securemodelines'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'cespare/vim-toml'
 Plug 'stephpy/vim-yaml'

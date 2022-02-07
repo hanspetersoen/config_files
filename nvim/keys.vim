@@ -84,6 +84,18 @@ inoremap <C-f> :sus<cr>
 vnoremap <C-f> :sus<cr>
 nnoremap <C-f> :sus<cr>
 
+" No arrow keys --- force yourself to use the home row
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
+" Left and right can switch buffers
+nnoremap <left> :bp<CR>
+nnoremap <right> :bn<CR>
+
 " Jump to start and end of line using the home row keys
 map H ^
 map L $
