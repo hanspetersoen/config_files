@@ -1,3 +1,4 @@
+colorco|colorcolumn|around
 x|xinit_custom|file
 |mostfrequent.db|file
 conf|conf|around
