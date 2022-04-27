@@ -7,6 +7,7 @@ Plug 'ggandor/lightspeed.nvim'
 "
 " Language support / Language servers
 "
+Plug 'ciaranm/securemodelines'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'cespare/vim-toml'
 Plug 'stephpy/vim-yaml'
@@ -32,6 +33,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'ggandor/lightspeed.nvim'
 
 "
 " Languages and Syntax
