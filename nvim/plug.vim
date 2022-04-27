@@ -1,5 +1,10 @@
 call plug#begin()
 "
+" For moving fast as fuck boi
+" 
+Plug 'ggandor/lightspeed.nvim'
+
+"
 " Language support / Language servers
 "
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -28,4 +33,17 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+"
+" Languages and Syntax
+"
+Plug 'leafOfTree/vim-svelte-plugin'
+Plug 'pangloss/vim-javascript'
+Plug 'evanleck/vim-svelte'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'codechips/coc-svelte', {'do' : 'npm install'}
+Plug 'prettier/vim-prettier', {'do' : 'npm install'}
+
+let g:prettier#quickfix_enabled = 0
+let g:prettier#autoformat_require_pragma = 0
+au BufWritePre *.css, *.svelte, *.html, *.ts, *.js, *.scss PrettierAsync
 call plug#end()

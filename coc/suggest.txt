@@ -1,3 +1,26 @@
+"coc.preferences.formatOnSaveFile|"coc.preferences.formatOnSaveFiletypes": [$1]|json
+pro|production|around
+pu|public|buffer
+node|node_modules|around
+ex|exclude|json
+src|src|buffer
+inc|include|json
+type|typeRoots|json
+compiler|compilerOptions|json
+tsconfi|tsconfig|around
+svel|svelte|buffer
+"exten|"extends": "$1"|json
+"ec|"exclude": [$1]|json
+typ|typescript|around
+plu|plugins|around
+pos|postcss|around
+post|postcss|around
+product|production|around
+svel|sveltePreprocess|around
+prepr|preprocess|around
+sv|sveltePreprocess|around
+svel|svelte|around
+re|resolve|around
 x|xinit_custom|file
 |mostfrequent.db|file
 conf|conf|around

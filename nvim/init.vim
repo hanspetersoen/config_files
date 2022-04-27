@@ -63,6 +63,7 @@ else
     \ }
 endif
 
+
 " Main Coloring Configurations
 syntax on
 color dracula

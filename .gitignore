@@ -6,6 +6,7 @@ awesome/
 chromium/
 conky/
 cutefishos/
+coc/
 dconf/
 gtk-3.0/
 htop/
@@ -24,4 +25,4 @@ volumeicon/
 xfce4/
 yad.conf
 znt/
-
+coc/**/*
